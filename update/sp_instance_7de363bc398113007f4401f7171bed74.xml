@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">0760d378398113007f4401f7171bed4b</sp_column>
+        <sp_widget display_value="dd18_count_display_widget">7a43a37c398113007f4401f7171bed4b</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-22 15:58:58</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>7de363bc398113007f4401f7171bed74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DD_Mar_22_ADVSP" source="x_snc_dd_mar_22_ad">28efc7f4398113007f4401f7171bedf3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DD_Mar_22_ADVSP">28efc7f4398113007f4401f7171bedf3</sys_scope>
+        <sys_update_name>sp_instance_7de363bc398113007f4401f7171bed74</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-22 15:58:58</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=7de363bc398113007f4401f7171bed74"/>
+</record_update>
