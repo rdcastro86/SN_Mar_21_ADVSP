@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function($scope,$http) {
+    /*widget controller */
+    var c = this;
+    c.data.loading = true;
+
+   $http.get('/api/now/table/incident?sysparm_query=active%3Dtrue').success(function(response){
+        c.data.loading=false;
+        c.data.list = response.result;
+    })
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list>title,color</field_list>
+        <has_preview>true</has_preview>
+        <id>dd18-list-widget</id>
+        <internal>false</internal>
+        <link/>
+        <name>dd18_list_widget</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function () {
+   
+   
+})();
+
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-22 14:33:51</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c3609378398113007f4401f7171beda1</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>dd18_list_widget</sys_name>
+        <sys_package display_value="DD_Mar_22_ADVSP" source="x_snc_dd_mar_22_ad">28efc7f4398113007f4401f7171bedf3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DD_Mar_22_ADVSP">28efc7f4398113007f4401f7171bedf3</sys_scope>
+        <sys_update_name>sp_widget_c3609378398113007f4401f7171beda1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-22 15:15:24</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-default">
+    <!-- your widget template -->
+    <div class="panel-heading">
+        DD18 List Widget
+    </div>
+    <div class="panel-body">
+    <span ng-if="c.data.loading"><i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
+        <span class="sr-only">
+            Loading\...
+        </span>
+    </span>
+    <ul class="list-group">
+        <li class="list-group-item" ng-repeat="item in c.data.list" ng-include="'task-priority'"></li>
+    </ul>
+    </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

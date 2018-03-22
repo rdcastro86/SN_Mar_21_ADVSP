@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <css/>
+        <id>dd18_list_widget</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-22 14:33:51</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>87609378398113007f4401f7171beda3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dd18_list_widget</sys_name>
+        <sys_package display_value="DD_Mar_22_ADVSP" source="x_snc_dd_mar_22_ad">28efc7f4398113007f4401f7171bedf3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DD_Mar_22_ADVSP">28efc7f4398113007f4401f7171bedf3</sys_scope>
+        <sys_update_name>sp_page_87609378398113007f4401f7171beda3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-22 14:33:51</sys_updated_on>
+        <title>dd18_list_widget - Test Page</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=87609378398113007f4401f7171beda3"/>
+</record_update>
